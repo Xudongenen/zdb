@@ -1,0 +1,12 @@
+package com.zxd.zdb.backend.dm.pageIndex;
+
+// 页面信息 页面编号加剩余空间
+public class PageInfo {
+    public int pgno;
+    public int freeSpace;
+
+    public PageInfo(int pgno, int freeSpace) {
+        this.pgno = pgno;
+        this.freeSpace = freeSpace;
+    }
+}
